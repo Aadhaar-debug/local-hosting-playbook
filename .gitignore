@@ -1,0 +1,7 @@
+*.pem
+*.key
+*.cer
+*.crt
+*.log
+.DS_Store
+.well-known/

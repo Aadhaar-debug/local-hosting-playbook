@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini Site</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0;
+           display: grid; place-items: center; min-height: 100vh; margin: 0; }
+    .card { background: #1e293b; padding: 2rem 3rem; border-radius: 12px; text-align: center; }
+    h1 { margin: 0 0 .5rem; }
+    p { color: #94a3b8; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hello from my Mac 👋</h1>
+    <p>This page is served locally and reachable over the internet.</p>
+    <p id="t"></p>
+  </div>
+  <script>document.getElementById('t').textContent = 'Loaded at ' + new Date().toLocaleString();</script>
+</body>
+</html>
